@@ -3,170 +3,86 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="robots" content="index, follow">
-<title>Política de privacidad — Creighton Chart</title>
+<title>Política de Privacidad — Creighton Chart</title>
 <style>
-  :root {
-    --bg: #ffffff;
-    --fg: #1a1a1a;
-    --muted: #5a5a5a;
-    --accent: #2d6a4f;
-    --accent-soft: #e8f3ee;
-    --border: #e5e5e5;
-    --warn-bg: #fff8e6;
-    --warn-border: #f0d488;
-    --max: 720px;
-  }
-  @media (prefers-color-scheme: dark) {
-    :root {
-      --bg: #16181c;
-      --fg: #e8e8e8;
-      --muted: #a5a5a5;
-      --accent: #74c69d;
-      --accent-soft: #1e2a24;
-      --border: #2c2f36;
-      --warn-bg: #2a2410;
-      --warn-border: #5c4d1a;
-    }
-  }
-  * { box-sizing: border-box; }
-  html { -webkit-text-size-adjust: 100%; }
-  body {
-    margin: 0;
-    background: var(--bg);
-    color: var(--fg);
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-    line-height: 1.65;
-    font-size: 17px;
-  }
-  .wrap {
-    max-width: var(--max);
-    margin: 0 auto;
-    padding: 3rem 1.25rem 5rem;
-  }
-  header {
-    border-bottom: 1px solid var(--border);
-    padding-bottom: 1.5rem;
-    margin-bottom: 2rem;
-  }
-  .app-name {
-    display: inline-block;
-    font-size: 0.8rem;
-    letter-spacing: 0.08em;
-    text-transform: uppercase;
-    color: var(--accent);
-    background: var(--accent-soft);
-    padding: 0.25rem 0.7rem;
-    border-radius: 999px;
-    font-weight: 600;
-    margin-bottom: 1rem;
-  }
-  h1 {
-    font-size: 1.9rem;
-    line-height: 1.2;
-    margin: 0 0 0.5rem;
-    font-weight: 700;
-  }
-  .updated {
-    color: var(--muted);
-    font-size: 0.9rem;
-    margin: 0;
-  }
-  .intro {
-    background: var(--accent-soft);
-    border-radius: 12px;
-    padding: 1.25rem 1.4rem;
-    margin: 0 0 2.5rem;
-  }
-  .intro p { margin: 0 0 0.75rem; }
-  .intro p:last-child { margin-bottom: 0; }
-  .intro ul { margin: 0.5rem 0; padding-left: 1.2rem; }
-  .intro li { margin: 0.35rem 0; }
-  h2 {
-    font-size: 1.15rem;
-    margin: 2.4rem 0 0.6rem;
-    font-weight: 700;
-  }
-  h2 .num {
-    color: var(--accent);
-    font-variant-numeric: tabular-nums;
-    margin-right: 0.4rem;
-  }
-  p { margin: 0.6rem 0; }
-  code {
-    background: var(--accent-soft);
-    padding: 0.1em 0.4em;
-    border-radius: 5px;
-    font-size: 0.9em;
-  }
-  strong { font-weight: 700; }
-  .warn {
-    background: var(--warn-bg);
-    border: 1px solid var(--warn-border);
-    border-radius: 10px;
-    padding: 0.9rem 1.1rem;
-    margin: 1rem 0;
-    font-size: 0.95rem;
-  }
-  footer {
-    margin-top: 3.5rem;
-    padding-top: 1.5rem;
-    border-top: 1px solid var(--border);
-    color: var(--muted);
-    font-size: 0.85rem;
-  }
-  footer a { color: var(--accent); }
+  body { font-family: -apple-system, "Segoe UI", Roboto, sans-serif; max-width: 760px;
+         margin: 0 auto; padding: 24px; line-height: 1.6; color: #222; }
+  h1 { color: #1565C0; border-bottom: 2px solid #1565C0; padding-bottom: 8px; }
+  h2 { color: #0D47A1; margin-top: 32px; }
+  .fecha { color: #757575; font-style: italic; }
+  .destacado { background: #E8F5E9; border-left: 4px solid #4CAF50; padding: 12px 16px;
+               border-radius: 4px; margin: 16px 0; }
+  footer { margin-top: 48px; padding-top: 16px; border-top: 1px solid #ddd;
+           color: #757575; font-size: 0.9em; }
 </style>
 </head>
 <body>
-<div class="wrap">
-  <header>
-    <span class="app-name">Creighton Chart</span>
-    <h1>Política de privacidad</h1>
-    <p class="updated">Última actualización: julio de 2026</p>
-  </header>
 
-  <div class="intro">
-    <p>Esta app registra datos íntimos de salud (observaciones de fertilidad, ciclo menstrual y notas médicas).</p>
-    <ul>
-      <li>Todos los datos se guardan únicamente en este dispositivo, cifrados.</li>
-      <li>La app no tiene acceso a internet: nada se envía a servidores ni a terceros.</li>
-      <li>Las copias de seguridad automáticas en la nube están desactivadas.</li>
-      <li>Puedes exportar o borrar todos tus datos cuando quieras desde el botón 🔒 del gráfico.</li>
-    </ul>
-  </div>
+<h1>Política de Privacidad — Creighton Chart</h1>
+<p class="fecha">Última actualización: julio de 2026</p>
 
-  <h2><span class="num">1.</span>Qué datos se tratan</h2>
-  <p>Creighton Chart permite registrar datos de salud reproductiva: observaciones del método Creighton (mucosidad, sangrado), temperatura basal, relaciones sexuales, síntomas y notas médicas. Son datos de categoría especial según el artículo 9 del RGPD.</p>
-
-  <h2><span class="num">2.</span>Dónde se guardan</h2>
-  <p>Exclusivamente en este dispositivo, en una base de datos cifrada (SQLCipher, AES-256) cuya clave está protegida por el hardware del teléfono (Android Keystore). La app no dispone de permiso de internet, por lo que técnicamente no puede enviar datos a ningún servidor.</p>
-
-  <h2><span class="num">3.</span>Quién accede a tus datos</h2>
-  <p>Nadie más que tú. No hay cuentas de usuario, no hay analítica, no hay publicidad ni SDKs de terceros. El desarrollador de la app no tiene acceso a tus datos ni actúa como responsable del tratamiento, ya que el tratamiento se realiza íntegramente en tu dispositivo.</p>
-
-  <h2><span class="num">4.</span>Copias de seguridad</h2>
-  <p>Las copias automáticas en la nube (Google) y la transferencia entre dispositivos están desactivadas para evitar que tus datos salgan del teléfono. Si desinstalas la app o pierdes el dispositivo, los datos no son recuperables: exporta tus datos si quieres conservarlos.</p>
-
-  <h2><span class="num">5.</span>Exportación (portabilidad)</h2>
-  <p>Puedes exportar tus registros en formato CSV en cualquier momento.</p>
-  <div class="warn">⚠️ El archivo exportado <strong>NO</strong> está cifrado y tú decides con qué app compartirlo; a partir de ese momento su custodia es responsabilidad tuya.</div>
-
-  <h2><span class="num">6.</span>Supresión de datos</h2>
-  <p>Puedes borrar todos tus datos desde el botón 🔒 del gráfico (opción «Borrar todos los datos») o desinstalando la app. El borrado es inmediato e irreversible.</p>
-
-  <h2><span class="num">7.</span>Notificaciones</h2>
-  <p>El recordatorio diario es opcional, se programa localmente y su texto no revela datos de salud.</p>
-
-  <h2><span class="num">8.</span>Menores</h2>
-  <p>Esta app no está dirigida a menores de 16 años.</p>
-
-  <h2><span class="num">9.</span>Cambios</h2>
-  <p>Cualquier cambio de esta política se mostrará en la app antes de aplicarse.</p>
-
-  <footer>
-    <p>Creighton Chart · Política de privacidad</p>
-  </footer>
+<div class="destacado">
+<strong>Resumen:</strong> todos tus datos se guardan únicamente en tu dispositivo, cifrados.
+La app no tiene acceso a internet, por lo que técnicamente no puede enviar información a
+ningún servidor ni a terceros. Nadie más que tú puede acceder a tus datos.
 </div>
+
+<h2>1. Qué datos se tratan</h2>
+<p>Creighton Chart permite registrar datos de salud reproductiva: observaciones del método
+Creighton (características de la mucosidad, sangrado), temperatura basal, relaciones
+sexuales, síntomas físicos y notas médicas personales. Estos datos se consideran de
+categoría especial según el artículo 9 del Reglamento General de Protección de Datos (RGPD).</p>
+
+<h2>2. Dónde se guardan</h2>
+<p>Exclusivamente en tu dispositivo, en una base de datos cifrada (SQLCipher, AES-256)
+cuya clave de cifrado está protegida por el hardware del teléfono (Android Keystore).
+La aplicación no dispone del permiso de internet de Android, por lo que no puede
+transmitir datos a ningún servidor.</p>
+
+<h2>3. Quién accede a tus datos</h2>
+<p>Nadie más que tú. La aplicación no tiene cuentas de usuario, no incluye herramientas de
+analítica, publicidad ni SDKs de terceros. El desarrollador no tiene acceso a tus datos ni
+actúa como responsable del tratamiento, ya que el tratamiento se realiza íntegramente en tu
+dispositivo bajo tu control exclusivo.</p>
+
+<h2>4. Copias de seguridad</h2>
+<p>Las copias de seguridad automáticas en la nube (Google) y la transferencia de datos entre
+dispositivos están desactivadas para evitar que tus datos salgan del teléfono. Ten en cuenta
+que, si desinstalas la aplicación o pierdes el dispositivo, los datos no son recuperables:
+exporta tus datos si deseas conservarlos.</p>
+
+<h2>5. Exportación de datos (portabilidad)</h2>
+<p>Puedes exportar tus registros en formato CSV en cualquier momento desde la propia
+aplicación. Atención: el archivo exportado <strong>no está cifrado</strong> y eres tú quien
+decide con qué aplicación o persona compartirlo; a partir de ese momento, su custodia es
+responsabilidad tuya.</p>
+
+<h2>6. Supresión de datos</h2>
+<p>Puedes borrar todos tus datos de forma inmediata e irreversible desde la propia app
+(botón 🔒 del gráfico → «Borrar todos los datos») o desinstalando la aplicación.</p>
+
+<h2>7. Notificaciones</h2>
+<p>El recordatorio diario es opcional, se programa localmente en tu dispositivo y su texto
+no revela ningún dato de salud.</p>
+
+<h2>8. Menores</h2>
+<p>Esta aplicación no está dirigida a menores de 16 años.</p>
+
+<h2>9. Seguridad</h2>
+<p>Además del cifrado de la base de datos, la aplicación ofrece bloqueo mediante huella,
+reconocimiento facial o código del dispositivo, e impide la realización de capturas de
+pantalla del contenido.</p>
+
+<h2>10. Cambios en esta política</h2>
+<p>Cualquier cambio en esta política se mostrará dentro de la aplicación antes de aplicarse
+y se actualizará en esta página.</p>
+
+<h2>11. Contacto</h2>
+<p>Para cualquier consulta sobre privacidad puedes escribir a:
+<strong>victor.gil.88@gmail.com</strong></p>
+
+<footer>Creighton Chart — Aplicación de registro personal del método Creighton.
+Esta aplicación es una herramienta de registro y no proporciona consejo médico.</footer>
+
 </body>
 </html>
